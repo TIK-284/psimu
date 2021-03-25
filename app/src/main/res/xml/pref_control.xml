@@ -1,0 +1,17 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="80"
+        android:entries="@array/scroll_sen_entrytitles"
+        android:entryValues="@array/scroll_sen_val"
+        android:key="scroll_sen"
+        android:title="@string/scroll_sen_title" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:title="@string/BACK_reverse"
+        android:key="BACK_reverse"/>
+    <SwitchPreference
+        android:defaultValue="true"
+        android:title="@string/retry_dialog"
+        android:key="retry_dialog"/>
+</PreferenceScreen>

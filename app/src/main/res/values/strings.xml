@@ -1,69 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">ぷよシミュ</string>
+    <string name="tumo_dialog">ツモ仕様を選択</string>
+    <string name="title_activity_toko">ぷよシミュ</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">設定</string>
-    <string name="title_activity_general_settings">設定</string>
+    <string name="title_activity_settings">設定</string>
+    <string name="ozyama_land">お邪魔ぷよを降らす</string>
+    <string name="action_IPSTweet">ツイートする（IPS）</string>
+    <string name="action_about">このアプリについて</string>
 
     <!-- Strings related to Settings -->
 
     <!-- Example General settings -->
-    <string name="pref_header_general">General</string>
-
-    <string name="pref_title_social_recommendations">Enable social recommendations</string>
-    <string name="pref_description_social_recommendations">Recommendations for people to contact
-        based on your message history
-    </string>
-
-    <string name="pref_title_display_name">Display name</string>
-    <string name="pref_default_display_name">John Smith</string>
-
-    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
-    <string-array name="pref_example_list_titles">
-        <item>Always</item>
-        <item>When possible</item>
-        <item>Never</item>
+    <string name="pref_header_general">一般</string>
+    <string name="AutoRensa">自動で連鎖を進める</string>
+    <string-array name="Rensa_rapid">
+        <item>∞</item>
+        <item>7</item>
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
     </string-array>
-    <string-array name="pref_example_list_values">
+    <string-array name="Rensa_rapid_val">
+        <item>1</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>600</item>
+        <item>800</item>
+    </string-array>
+    <string name="retry_dialog">retry時に警告する</string>
+    <string name="OzyamaLand">ランダムお邪魔落下</string>
+    <string-array name="SecondFlat">
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
         <item>1</item>
         <item>0</item>
-        <item>-1</item>
     </string-array>
-
-    <!-- Example settings for Data & Sync -->
-    <string name="pref_header_data_sync">Data &amp; sync</string>
-
-    <string name="pref_title_sync_frequency">Sync frequency</string>
-    <string-array name="pref_sync_frequency_titles">
-        <item>15 minutes</item>
-        <item>30 minutes</item>
-        <item>1 hour</item>
-        <item>3 hours</item>
-        <item>6 hours</item>
-        <item>Never</item>
-    </string-array>
-    <string-array name="pref_sync_frequency_values">
-        <item>15</item>
-        <item>30</item>
+    <string-array name="SecondFlat_val">
+        <item>100</item>
+        <item>80</item>
         <item>60</item>
-        <item>180</item>
-        <item>360</item>
+        <item>40</item>
+        <item>20</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="SecondEdge">
+        <item>+3</item>
+        <item>+2</item>
+        <item>+1</item>
+        <item>0</item>
         <item>-1</item>
+        <item>-2</item>
+        <item>-3</item>
     </string-array>
 
-    <string name="pref_title_system_sync_settings">System sync settings</string>
+    <string name="pref_header_display">表示</string>
+
+    <string name="nextnum_title">NEXT数</string>
+    <string-array name="nextnum_entrytitles">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="nextnum_val">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string name="extrashow_title">追加表示1</string>
+    <string name="extrashow2_title">追加表示2</string>
+    <string name="extrashow3_title">追加表示3</string>
+    <string-array name="extrashow_01_titles">
+        <item>表示しない</item>
+        <item>ちぎり数</item>
+        <item>本線タイマー</item>
+    </string-array>
+    <string-array name="extrashow_01_val">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string name="twoP_place">2P配置</string>
+    <string name="expansionfield_title">拡大表示する（一部被ります）</string>
+
 
     <!-- Example settings for Notifications -->
-    <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_header_control">操作</string>
+    <string name="scroll_sen_title">左右のスクロール感度</string>
+    <string-array name="scroll_sen_entrytitles">
+        <item>8</item>
+        <item>7</item>
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="scroll_sen_val">
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>60</item>
+        <item>80</item>
+        <item>120</item>
+        <item>160</item>
+    </string-array>
+    <string name="BACK_reverse">BACKキーで一手戻す</string>
 
-    <string name="pref_title_new_message_notifications">New message notifications</string>
 
-    <string name="pref_title_ringtone">Ringtone</string>
-    <string name="pref_ringtone_silent">Silent</string>
+    <string name="pref_header_other">その他</string>
+    <string name="scoreversion_title">得点計算</string>
+    <string-array name="scver_entrytitles">
+        <item>ぷよぷよ通</item>
+        <item>初代ぷよぷよ</item>
+    </string-array>
+    <string-array name="scver_val">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
 
-    <string name="pref_title_vibrate">Vibrate</string>
-    <string name="title_activity_simulator">SimulatorActivity</string>
-    <string name="title_activity_main">MainActivity</string>
+
 </resources>

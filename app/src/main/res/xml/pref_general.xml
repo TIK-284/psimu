@@ -2,32 +2,23 @@
 
     <SwitchPreference
         android:defaultValue="true"
-        android:key="example_switch"
-        android:summary="@string/pref_description_social_recommendations"
-        android:title="@string/pref_title_social_recommendations" />
-
-    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
-    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
-    <EditTextPreference
-        android:capitalize="words"
-        android:defaultValue="@string/pref_default_display_name"
-        android:inputType="textCapWords"
-        android:key="example_text"
-        android:maxLines="1"
-        android:selectAllOnFocus="true"
-        android:singleLine="true"
-        android:title="@string/pref_title_display_name" />
-
-    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
-         dismiss it. -->
-    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+        android:title="@string/AutoRensa"
+        android:key="AutoRensa"/>
     <ListPreference
-        android:defaultValue="-1"
-        android:entries="@array/pref_example_list_titles"
-        android:entryValues="@array/pref_example_list_values"
-        android:key="example_list"
-        android:negativeButtonText="@null"
-        android:positiveButtonText="@null"
-        android:title="@string/pref_title_add_friends_to_messages" />
+        android:defaultValue="400"
+        android:entries="@array/Rensa_rapid"
+        android:entryValues="@array/Rensa_rapid_val"
+        android:key="Rensa_Rapid"
+        android:title="オート連鎖の速度"/>
+    <PreferenceScreen
+        android:title="初期ゴミ配置設定"
+        android:key="SecondPrefScreen"
+        android:fragment="com.example.tik.puyo_simu.SettingsActivity$SecondPreferenceFragment">
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:title="お邪魔落下設定"
+        android:key="OzyamaPrefScreen"
+        android:fragment="com.example.tik.puyo_simu.SettingsActivity$OzyamaPreferenceFragment">
+    </PreferenceScreen>
 
 </PreferenceScreen>

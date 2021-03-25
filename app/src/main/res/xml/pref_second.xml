@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:defaultValue="false"
+        android:title="初期ゴミ配置"
+        android:key="SecondMode"/>
+    <EditTextPreference
+        android:defaultValue="9"
+        android:key="SecondKosu"
+        android:title="初期配置の個数"
+        android:dependency="SecondMode"
+        android:inputType="number"/>
+    <ListPreference
+        android:defaultValue="40"
+        android:entries="@array/SecondFlat"
+        android:entryValues="@array/SecondFlat_val"
+        android:key="SecondFlat"
+        android:title="平ら度"
+        android:dependency="SecondMode" />
+    <ListPreference
+        android:defaultValue="+1"
+        android:entries="@array/SecondEdge"
+        android:entryValues="@array/SecondEdge"
+        android:key="SecondEdge"
+        android:title="端度"
+        android:dependency="SecondMode" />
+    <!--<ListPreference-->
+        <!--android:defaultValue="60"-->
+        <!--android:entries="@array/SecondFlat"-->
+        <!--android:entryValues="@array/SecondFlat_val"-->
+        <!--android:key="SecondConnect"-->
+        <!--android:title="連結度"-->
+        <!--android:dependency="SecondMode" />-->
+</PreferenceScreen>

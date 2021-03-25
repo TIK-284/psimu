@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:defaultValue="false"
+        android:title="@string/OzyamaLand"
+        android:key="OzyamaLand"/>
+    <EditTextPreference
+        android:defaultValue="9"
+        android:key="ozyama_Tesu"
+        android:title="落とし始める手数"
+        android:dependency="OzyamaLand"
+        android:inputType="number"/>
+    <EditTextPreference
+        android:defaultValue="0"
+        android:key="ozyama_1k"
+        android:title="1個落とす確率(%)"
+        android:dependency="OzyamaLand"
+        android:inputType="number"/>
+    <EditTextPreference
+        android:defaultValue="0"
+        android:key="ozyama_3k"
+        android:title="3個落とす確率(%)"
+        android:dependency="OzyamaLand"
+        android:inputType="number" />
+    <EditTextPreference
+        android:defaultValue="0"
+        android:key="ozyama_1d"
+        android:title="1段落とす確率(%)"
+        android:dependency="OzyamaLand"
+        android:inputType="number" />
+    <EditTextPreference
+        android:defaultValue="0"
+        android:key="ozyama_2d"
+        android:title="2段落とす確率(%)"
+        android:dependency="OzyamaLand"
+        android:inputType="number" />
+    <EditTextPreference
+        android:defaultValue="0"
+        android:key="ozyama_3d"
+        android:title="3段落とす確率(%)"
+        android:dependency="OzyamaLand"
+        android:inputType="number"/>
+    <EditTextPreference
+        android:defaultValue="0"
+        android:key="ozyama_5d"
+        android:title="5段落とす確率(%)"
+        android:dependency="OzyamaLand"
+        android:inputType="number" />
+
+</PreferenceScreen>

@@ -3,18 +3,18 @@
     <!-- These settings headers are only used on tablets. -->
 
     <header
-        android:fragment="com.example.tik.puyo_simu3.GeneralSettingsActivity$GeneralPreferenceFragment"
-        android:icon="@drawable/ic_info_black_24dp"
+        android:fragment="com.example.tik.puyo_simu.SettingsActivity$GeneralPreferenceFragment"
         android:title="@string/pref_header_general" />
+    <header
+        android:fragment="com.example.tik.puyo_simu.SettingsActivity$DisplayPreferenceFragment"
+        android:title="@string/pref_header_display" />
 
     <header
-        android:fragment="com.example.tik.puyo_simu3.GeneralSettingsActivity$NotificationPreferenceFragment"
-        android:icon="@drawable/ic_notifications_black_24dp"
-        android:title="@string/pref_header_notifications" />
+        android:fragment="com.example.tik.puyo_simu.SettingsActivity$ControlPreferenceFragment"
+        android:title="@string/pref_header_control" />
 
     <header
-        android:fragment="com.example.tik.puyo_simu3.GeneralSettingsActivity$DataSyncPreferenceFragment"
-        android:icon="@drawable/ic_sync_black_24dp"
-        android:title="@string/pref_header_data_sync" />
+        android:fragment="com.example.tik.puyo_simu.SettingsActivity$OtherPreferenceFragment"
+        android:title="@string/pref_header_other" />
 
 </preference-headers>

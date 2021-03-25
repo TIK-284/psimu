@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tumo_array">
+        <item>ツモ補正無し</item>
+        <item>ACぷよ通仕様</item>
+        <item>ぷよクラ仕様</item>
+        <item>3色のみ</item>
+    </string-array>
+</resources>

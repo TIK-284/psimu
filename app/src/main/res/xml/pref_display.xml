@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:defaultValue="2"
+        android:entries="@array/nextnum_entrytitles"
+        android:entryValues="@array/nextnum_val"
+        android:key="next_num"
+        android:title="@string/nextnum_title" />
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/extrashow_01_titles"
+        android:entryValues="@array/extrashow_01_val"
+        android:key="extrashow_01"
+        android:title="@string/extrashow_title" />
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/extrashow_01_titles"
+        android:entryValues="@array/extrashow_01_val"
+        android:key="extrashow_02"
+        android:title="@string/extrashow2_title" />
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/extrashow_01_titles"
+        android:entryValues="@array/extrashow_01_val"
+        android:key="extrashow_03"
+        android:title="@string/extrashow3_title" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:title="@string/twoP_place"
+        android:key="2p_place"/>
+    <SwitchPreference
+        android:defaultValue="true"
+        android:title="@string/expansionfield_title"
+        android:key="expansion_field"/>
+</PreferenceScreen>
